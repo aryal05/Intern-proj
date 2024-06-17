@@ -1,0 +1,23 @@
+[
+    {
+      "image": "images/product-item1.jpg",
+      "title": "Full sleeve cover shirt",
+      "price": "$40.00"
+    },
+    {
+      "image": "images/product-item2.jpg",
+      "title": "Volunteer Half blue",
+      "price": "$38.00"
+    },
+    {
+      "image": "images/product-item3.jpg",
+      "title": "Double yellow shirt",
+      "price": "$44.00"
+    },
+    {
+      "image": "images/product-item4.jpg",
+      "title": "Long belly grey pant",
+      "price": "$33.00"
+    }
+  ]
+  
