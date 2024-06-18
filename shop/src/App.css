@@ -6,6 +6,9 @@
      margin-right: -441px;
 
 }
+.free-shipping p{
+  color: #8d8d8d;
+}
 .free-ship p{
      margin-right: -394px;
 }
@@ -785,4 +788,45 @@ ul li a{
 .image-holder img{
   margin-left: -34px;
 
+}
+
+/* ContactForm
+ */
+
+ .contact-title{
+  font-size: 2.6em;
+    font-weight: 700;
+}
+.submit-btn{
+  width: 547px;
+  background-color: black;
+  color: white;
+}
+.submit-btn:hover{
+  background-color: #6995b1;
+}
+.lable{
+  font-weight: normal;
+  color: #8d8d8d;
+}
+.social{
+  font-size: 1.4em;
+    line-height: 1.4;
+}
+
+/* MapLocation */
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+.map-section{
+  margin-top: 50px;
 }

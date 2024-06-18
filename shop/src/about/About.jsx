@@ -7,7 +7,8 @@ const About = () => {
   return (
     <>
       <section className="site-banner jarallax padding-large about-section-top">
-        <img src="images/hero-image.jpg" alt="Hero" className="background-image" />
+        <img src="images/hero-image.jpg" alt="Hero" className="background-image"
+       scrolling="yes" />
         <div className='about-us'>
         <div className="container">
           <div className="row">

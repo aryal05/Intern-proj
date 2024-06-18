@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ContactForm from './ContactForm'
 const Contact = () => {
   return (
   <>
@@ -21,6 +22,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <ContactForm/>
   
   </>
   )

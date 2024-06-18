@@ -9,33 +9,33 @@ const NavBar = () => {
         <nav class="secondary-nav border-bottom">
           <div class="container">
             <div class="row d-flex align-items-center">
-              <div class="col-md-4 header-contact ">
+              <div class="col-md-4 header-contact free-shipping">
                 <p>Let's talk! <strong>+57 444 11 00 35</strong>
                 </p>
               </div>
-              <div class="col-md-4 shipping-purchase text-center ">
+              <div class="col-md-4 shipping-purchase text-center free-shipping">
                 <p>Free shipping on a purchase value of $200</p>
               </div>
               <div class="col-md-4 col-sm-12 user-items icons">
                 <ul class="d-flex justify-content-end list-unstyled">
                   <li>
                     <a href="login.html">
-                    <i class='bx bx-user icon'></i>
+                    <i class='bx bx-user'></i>
                     </a>
                   </li>
                   <li>
                     <a href="cart.html">
-                    <i class='bx bx-cart icon'></i>
+                    <i class='bx bx-cart'></i>
                     </a>
                   </li>
                   <li>
                     <a href="wishlist.html">
-                    <i class='bx bx-heart icon' ></i>
+                    <i class='bx bx-heart'></i>
                     </a>
                   </li>
                   <li class="user-items search-item pe-3">
                   <Link to="/search"><a href="#" class="search-button">
-                    <i class='bx bx-search bx-flip-horizontal icon' ></i>
+                    <i class='bx bx-search bx-flip-horizontal' ></i>
                     </a></Link>
                   </li>
                 </ul>
