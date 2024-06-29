@@ -34,7 +34,7 @@ const NavBar = () => {
                     </a>
                   </li>
                   <li class="user-items search-item pe-3">
-                  <Link to="/search"><a href="#" class="search-button">
+                  <Link to="/search"><a href="#" class="search-button ">
                     <i class='bx bx-search bx-flip-horizontal' ></i>
                     </a></Link>
                   </li>

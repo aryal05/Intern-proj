@@ -19,6 +19,8 @@ import Home from './home/Home.jsx';
 import Blog from './blog/Blog.jsx';
 import About from './about/About.jsx';
 import Contact from './contact/Contact.jsx';
+import Shop from './shop/Shop.jsx';
+import Search from './shop/Search.jsx';
 // import Search from './search/Search.jsx';
 const router = createBrowserRouter([
   {
@@ -40,6 +42,15 @@ const router = createBrowserRouter([
         path:"/contact",
         element:<Contact/>
     },
+    {
+      path:"/shop",
+      element:<Shop/>
+  },
+  {
+    path:"/search",
+    element:<Search/>
+},
+
  
    
   

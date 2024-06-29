@@ -11,7 +11,7 @@ const LatestCollection = () => {
               src='images/collection-item1.jpg'
               alt="Street Wear"
               className="w-100"
-              style={{ height: '543px', objectFit: 'cover' }} // Adjust height as needed
+              style={{ height: '543px', objectFit: 'cover' }} 
             />
             <div className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center p-4">
               <h3 className="h6 text-muted casual">CASUAL COLLECTION</h3>
@@ -19,7 +19,7 @@ const LatestCollection = () => {
               <p className="mt-2 text-secondary casual">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.
               </p>
-              <a href="#" className="mt-4 text-decoration-none text-dark shoes-shop">
+              <a href="#" className="mt-4 text-decoration-none latest-collection-shop shoes-shop">
                 Shop Collection &rarr;
               </a>
             </div>
@@ -40,7 +40,7 @@ const LatestCollection = () => {
                 <div className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center p-4">
                   <h3 className="h6 text-muted">BASIC COLLECTION</h3>
                   <h1 className="display-4 text-dark">Basic <br />Shoes.</h1>
-                  <a href="#" className="mt-4 text-decoration-none text-dark">
+                  <a href="#" className="mt-4 text-decoration-none latest-collection-shop">
                     Shop Collection &rarr;
                   </a>
                 </div>
@@ -58,7 +58,7 @@ const LatestCollection = () => {
                 <div className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center p-4">
                   <h3 className="h6 text-muted">BEST SELLING PRODUCT</h3>
                   <h1 className="display-4 text-dark">Woolen <br /> Hat.</h1>
-                  <a href="#" className="mt-4 text-decoration-none text-dark">
+                  <a href="#" className="mt-4 text-decoration-none latest-collection-shop">
                     Shop Collection &rarr;
                   </a>
                 </div>

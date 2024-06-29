@@ -59,7 +59,7 @@ const FlashSales = () => {
             <div className="card border rounded-lg overflow-hidden h-100">
               <div className="position-relative">
                 <img src={product.imgSrc} alt={product.alt} className="card-img-top"/>
-                <div className="position-absolute top-0 start-0 bg-primary text-white text-xs font-bold px-2 py-1 rounded mt-2 ms-2">{product.discount}</div>
+                <div className="position-absolute top-0 start-0 bg-primary-sales text-white text-xs font-bold px-2 py-1 rounded mt-2 ms-2">{product.discount}</div>
               </div>
               <div className="card-body">
                 <h3 className="card-title h5">{product.title}</h3>

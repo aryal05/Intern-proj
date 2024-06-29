@@ -1,0 +1,62 @@
+/* Best selling */
+/* BestSelling.module.css */
+.shop-item{
+     width: 906px;
+     margin-right: 0;
+     margin-left: 51px;
+
+}
+.productCard {
+     position: relative;
+   }
+   
+   .cardImageWrapper {
+     position: relative;
+     overflow: hidden;
+   }
+   
+   .hoverButtons {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     opacity: 0;
+     transition: opacity 0.3s ease-in-out;
+   }
+   
+   .hoverButtons button {
+     background: white;
+     color: black;
+     border: none;
+     padding: 8px 16px;
+     margin: 8px;
+     cursor: pointer;
+     transition: background-color 0.3s ease-in-out;
+   }
+   
+
+   .productCard:hover .hoverButtons {
+     opacity: 1;
+   }
+   
+   .tooltip-text {
+     visibility: hidden;
+     opacity: 0;
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 4px;
+     border-radius: 4px;
+     position: absolute;
+     z-index: 1;
+     bottom: 100%;
+     left: 50%;
+     transform: translateX(-50%);
+     transition: opacity 0.3s, visibility 0.3s;
+   }
+   
+   .view-btn:hover .tooltip-text {
+     visibility: visible;
+     opacity: 1;
+   }
+   

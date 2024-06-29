@@ -15,7 +15,7 @@ const Contact = () => {
                 <span className="item">
                 <Link to="/"><a href="/">Home /</a></Link>
                 </span>
-                <span className="item">Contact</span>
+                <span className="item">Contact Us                                                                                                                     </span>
               </div>
             </div>
             </div>

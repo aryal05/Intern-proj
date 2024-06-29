@@ -7,11 +7,11 @@ const Quotes = () => {
       <div class="container">
         <div class="reviews-content">
           <div class="row d-flex flex-wrap">
-            <div class="col-md-2">
-              <div class="review-icon quote">
+            <div class="col-md-2 quotes">
+              <div class="review-icon quote quote-icon">
               <i class='bx bxs-quote-single-right'></i>
               </div>
-              <div class="review-icon quote">
+              <div class="review-icon quote quote-icon-2">
               <i class='bx bxs-quote-single-right'></i>
               </div>
             </div>

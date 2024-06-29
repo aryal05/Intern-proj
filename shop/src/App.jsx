@@ -6,7 +6,7 @@ import Nav from './components/Nav'
 import Journal from './home/Journal'
 import { Brand } from './components/Brand'
 import Instagram from './components/Instagram'
-import Shipping from './home/Shipping'
+// import Shipping from './home/Shipping'
 import AboutUs from './components/AboutUs'
 import Footer from './components/Footer'
 // import Shipping from './home/Shipping'
@@ -27,8 +27,6 @@ function App() {
     {/* <Shipping/> */}
     <AboutUs/>
     <Footer/>
-    
-    
     </>
   )
 }
