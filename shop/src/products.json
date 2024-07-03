@@ -1,23 +1,17 @@
 [
-    {
-      "image": "images/product-item1.jpg",
-      "title": "Full sleeve cover shirt",
-      "price": "$40.00"
-    },
-    {
-      "image": "images/product-item2.jpg",
-      "title": "Volunteer Half blue",
-      "price": "$38.00"
-    },
-    {
-      "image": "images/product-item3.jpg",
-      "title": "Double yellow shirt",
-      "price": "$44.00"
-    },
-    {
-      "image": "images/product-item4.jpg",
-      "title": "Long belly grey pant",
-      "price": "$33.00"
-    }
-  ]
-  
+  { "id": 1, "image": "images/selling-products1.jpg", "title": "Half Sleeve T-Shirt", "category": "Tshirts", "price": 40.00 },
+  { "id": 2, "image": "images/selling-products2.jpg", "title": "Stylish Grey T-Shirt", "category": "Tshirts", "price": 35.00 },
+  { "id": 3, "image": "images/selling-products3.jpg", "title": "Silk White Shirt", "category": "Tshirts", "price": 35.00 },
+  { "id": 4, "image": "images/selling-products5.jpg", "title": "Grunge Hoodie", "category": "Hoodie", "price": 30.00 },
+  { "id": 5, "image": "images/selling-products4.jpg", "title": "Full sleeve Jeans jacket", "category": "Jackets", "price": 40.00 },
+  { "id": 6, "image": "images/selling-products7.jpg", "title": "Grey Check Coat", "category": "Outer", "price": 30.00 },
+  { "id": 7, "image": "images/selling-products6.jpg", "title": "Long Sleeve T-shirt", "category": "Tshirts", "price": 40.00 },
+  { "id": 8, "image": "images/selling-products13.jpg", "title": "Half Sleeve T-shirt", "category": "Tshirts", "price": 35.00 },
+  { "id": 9, "image": "images/selling-products14.jpg", "title": "Orange white Nike", "category": "Shoes", "price": 55.00 },
+  { "id": 10, "image": "images/selling-products15.jpg", "title": "Running Shoe", "category": "Shoes", "price": 65.00 },
+  { "id": 11, "image": "images/selling-products15.jpg", "title": "Tennis Shoe", "category": "Shoes", "price": 80.00 },
+  { "id": 12, "image": "images/selling-products13.jpg", "title": "Nike Brand Shoe", "category": "Shoes", "price": 60.00 },
+  { "id": 13, "image": "images/selling-products13.jpg", "title": "Pants", "category": "Pants", "price": 60.00 },
+  { "id": 14, "image": "images/selling-products13.jpg", "title": "Nike Brand Shoe", "category": "Shoes", "price": 60.00 },
+  { "id": 15, "image": "images/selling-products13.jpg", "title": "Pants", "category": "Pants", "price": 60.00 }
+]

@@ -59,22 +59,22 @@ const ShopItems = () => {
             <div key={product.id} className="col-12 col-sm-6 col-lg-3">
               <div className={`card h-100 ${styles.productCard}`}>
                 <div className={styles.cardImageWrapper}>
-                  <img src={product.image} className="card-img-top" alt={product.title} />
+                 <Link to={`/shop/${product.id}`}><img src={product.image} className="card-img-top" alt={product.title} /></Link> 
                   <div className={styles.hoverButtons}>
                     <button type="button" className={`btn-wrap cart-link ${styles.cartButton}`}>
-                      add to cart <i className="icon icon-arrow-io"></i>
+                      add to cart <i class='bx bx-right-arrow-alt'></i>
                     </button>
                     <button type="button" className={`view-btn tooltip ${styles.viewButton}`}>
-                      <i className="icon icon-screen-full"></i>
+                    {/* <i class='bx bx-street-view bx-flashing' ></i> */}
                       <span className="tooltip-text">Quick view</span>
                     </button>
                     <button type="button" className={`wishlist-btn ${styles.wishlistButton}`}>
-                      <i className="icon icon-heart"></i>
+                    {/* <i class='bx bx-low-vision bx-flashing' ></i> */}
                     </button>
                   </div>
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">{product.title}</h5>
+                <Link to={`/shop/${product.id}`}> <h5 className="card-title">{product.title}</h5></Link>
                   <p className="text-primary pric">${product.price.toFixed(2)}</p>
                 </div>
               </div>
