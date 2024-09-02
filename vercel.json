@@ -1,5 +1,16 @@
 {
-    "redirects": [
-      { "source": "/user", "destination": "/api/user", "statusCode": 301 }
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
+      }
+    ],
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/(.*)", "dest": "/" }
     ]
   }
+  
