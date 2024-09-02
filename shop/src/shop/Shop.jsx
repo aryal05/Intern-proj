@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ShopItems from './ShopItems'
+import ShopItems from './ShopItems' 
+
 const Shop = () => {
   return (
     <>

@@ -296,7 +296,7 @@ img.small-image {
 
 .casual {
   margin-left: 389px;
-  width: 392px;
+  width: 374px;
 
 }
 
@@ -310,7 +310,7 @@ img.small-image {
 }
 
 .second {
-  margin-left: 240px;
+  margin-left: 223px;
   width: 499px;
 }
 
@@ -697,6 +697,10 @@ display: flex;
 
 
 /* Shipping section */
+#shipping-information{
+  margin-left: 54px;
+  width: 1297px;
+}
 .delivery {
   width: 1309px;
 
@@ -952,6 +956,17 @@ ul li a {
   margin-top: 50px;
 }
 
+/* ShopSection */
+.page-title{
+  position: relative;
+    z-index: 1;
+    margin-left: 101px;
+}
+.breadcrumbs {
+  position: relative;
+  z-index: 1;
+  margin-left: 167px;
+}
 /* ShopItemSection */
 .shop-item {
   width: 906px;

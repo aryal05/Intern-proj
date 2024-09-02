@@ -1,4 +1,5 @@
-const mongoose = require("mongoose")
+// const mongoose = require("mongoose")
+import mongoose from "mongoose";
 
 const InquirySchema = new mongoose.Schema({
      name: String,
@@ -7,4 +8,6 @@ const InquirySchema = new mongoose.Schema({
 })
 
 const InquiryModel = mongoose.model("inquiry", InquirySchema)
-module.exports = InquiryModel
+// module.exports = InquiryModel
+
+export default InquiryModel;

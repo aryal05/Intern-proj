@@ -9,8 +9,6 @@ import FlashSales from './FlashSales'
 import CasualCollection from './CasualCollection'
 import QuoteOfTheDay from './QuoteOfTheDay'
 
-
-
 const Home = () => {
   return (
     <div>
